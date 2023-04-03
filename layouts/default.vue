@@ -1,7 +1,7 @@
 <template>
   <div>
-    <AppHeader />
+    <BlogHeader></BlogHeader>
     <slot />
-    <AppFooter />
+    <BlogFooter></BlogFooter>
   </div>
 </template>

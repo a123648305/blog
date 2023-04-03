@@ -1,5 +1,7 @@
 <template>
-  <h1>about</h1>
+  <NuxtLayout>
+    <h1>about</h1>
+  </NuxtLayout>
 </template>
 
 <!-- <script setup>

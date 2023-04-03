@@ -1,11 +1,12 @@
 <template>
-  <h1>welcome to my blog</h1>
-  <div>
-    <p>版本:{{ runTimeConfig.version }}</p>
-    <p>更新时间:{{ runTimeConfig.updateTime }}</p>
-    <p>{{ JSON.stringify(data) }}</p>
-  </div>
-  <BlogFooter></BlogFooter>
+  <NuxtLayout>
+    <h1>welcome to my blog</h1>
+    <div>
+      <p>版本:{{ runTimeConfig.version }}</p>
+      <p>更新时间:{{ runTimeConfig.updateTime }}</p>
+      <p>{{ JSON.stringify(data) }}</p>
+    </div>
+  </NuxtLayout>
 </template>
 
 <script setup>
